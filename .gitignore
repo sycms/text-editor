@@ -1,0 +1,9 @@
+vendor/
+example/web/js
+composer.lock
+phpunit.xml
+composer.phar
+example/web/bundles
+example/var/
+bower_components/
+node_modules/

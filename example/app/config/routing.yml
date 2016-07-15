@@ -1,0 +1,2 @@
+sycms_text_editor:
+    resource: "@SycmsTextEditorBundle/Resources/config/routing/main.yml"

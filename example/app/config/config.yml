@@ -1,0 +1,17 @@
+framework:
+    secret: secret
+    router:
+        resource: "%kernel.root_dir%/config/routing.yml"
+        strict_requirements: ~
+    templating:
+        engines: [ "twig" ]
+    secret: thisisnosecretfool
+
+cmf_resource:
+    repositories:
+        default:
+            type: filesystem
+            base_dir: %kernel.root_dir%/templates
+    description:
+        enhancers:
+            #- sycms_text_editor

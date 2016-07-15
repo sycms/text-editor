@@ -1,0 +1,21 @@
+{
+  "name": "text-editor-bundle",
+  "authors": [
+    "dantleech <dan.t.leech@gmail.com>"
+  ],
+  "description": "Text Editor for CMF Resources",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ace": "^1.2.3",
+    "ace-builds": "^1.2.3"
+  }
+}
